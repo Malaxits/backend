@@ -4,7 +4,7 @@
 
 if (!empty($_GET['search'])){
     $search = $_GET['search'];
-    $apiKey = 'AIzaSyAtkclBdhnHQpuymGt7qUYlvJO0-2n09wE';
+    $apiKey = 'AIzaSyCaMOuqPiOvt1GhD_0N4huREUhRTq_xnDA';
     $cx = '24376550d8fe34abf';
     $url = "https://www.googleapis.com/customsearch/v1?key={$apiKey}&cx={$cx}&q={$search}";
 //    echo $url;
@@ -29,7 +29,7 @@ if (!empty($_GET['search'])){
 </head>
 <body>
 <h2>My Browser</h2>
-<form method="GET" action="/33.php">
+<form method="GET" action="/index.php">
     <label for="search">Search:</label>
     <input type="text" id="search" name="search" value=""><br><br>
     <input type="submit" value="Submit">
